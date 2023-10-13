@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+    }
+    .bg {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #ulver {
+      border: 1px solid black;
+      width: 200px;
+      padding: 12px;
+    }
+    .ver {
+      display: block;
+      background-color: aquamarine;
+      width: 200px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      text-align: center;
+      color: rgb(111, 0, 255);
+    }
+    .ver:hover {
+      background-color: orange;
+      color: aliceblue;
+    }
+
+    .hor {
+      float: left;
+      padding: 14px 16px;
+      border: 1px solid black;
+      background-color: rgb(186, 186, 186);
+    }
+
+    .hor:hover {
+      background-color: black;
+      color: aliceblue;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Task 2</title>
+  </head>
+  <body>
+    <div class="bg">
+      <p>Back to <a href="index.html">Home</a></p>
+      <p style="font-weight: 600">Vertical Navigation Bar</p>
+      <ul type="none" id="ulver">
+        <li class="ver">Home</li>
+        <li class="ver">Java</li>
+        <li class="ver">CSS</li>
+        <li class="ver">HTML</li>
+        <li class="ver">Bootstrap</li>
+      </ul>
+
+      <p style="font-weight: 600">Horizontal Navigation Bar</p>
+      <ul type="none" id="ulhor">
+        <li class="hor">Home</li>
+        <li class="hor">Java</li>
+        <li class="hor">CSS</li>
+        <li class="hor">HTML</li>
+        <li class="hor">Bootstrap</li>
+      </ul>
+    </div>
+  </body>
+</html>

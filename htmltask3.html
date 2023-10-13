@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Task 3</title>
+  </head>
+  <style>
+    html,
+    body {
+      height: 100%;
+      background: linear-gradient(
+        to bottom right,
+        rgb(250, 157, 157),
+        rgb(243, 125, 250)
+      );
+      margin: 0;
+      font-size: 30px;
+    }
+    .bg {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+    .content {
+      padding: 20px;
+      width: 70%;
+      height: 20%;
+      background-color: rgb(228, 226, 226);
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: space-between;
+      border: 2px solid;
+      border-style: groove;
+    }
+  </style>
+  <body>
+    <div class="bg">
+      <p>Back to <a href="index.html">Home</a></p>
+      <div class="content">
+        Click on any of the following links
+        <span>
+          <a href="https://aryanjain0793.pythonanywhere.com">Opens in New</a>
+          |
+          <a href="https://aryanjain0793.pythonanywhere.com" target="_self"
+            >Opens in Self</a
+          >
+          |
+          <a href="https://aryanjain0793.pythonanywhere.com" target="_parent"
+            >Opens in Parent</a
+          >
+          |
+          <a href="https://aryanjain0793.pythonanywhere.com" target="_body"
+            >Opens in Body</a
+          >
+          |
+          <a href="mailto:narendramodi2024@india.com">Send email</a>
+          |
+        </span>
+      </div>
+    </div>
+  </body>
+</html>

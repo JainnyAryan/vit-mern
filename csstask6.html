@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    #full {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    img {
+      width: 200px;
+      border-radius: 100px;
+    }
+    #form label {
+      text-align: left;
+      font-weight: 700;
+      font-family: "Lato", sans-serif;
+    }
+    .boxx {
+      width: 400px;
+      border-collapse: collapse;
+      border: 1px solid rgb(219, 217, 217);
+      padding: 10px;
+      margin-bottom: 12px;
+    }
+    #login {
+      border: 1px transparent;
+      width: 420px;
+      padding: 10px;
+      color: white;
+      background-color: rgb(53, 173, 53);
+      margin-bottom: 12px;
+    }
+    .remember {
+      font-family: "Lato", sans-serif;
+    }
+    #cancelpart {
+      border: 1px solid rgb(219, 217, 217);
+      padding: 15px 0;
+      width: 420px;
+      margin: 12px 0;
+      background-color: rgb(224, 223, 223);
+    }
+    #cancelpart div {
+      display: inline;
+      margin-left: 215px;
+      font-family: "Lato", sans-serif;
+    }
+    #cancelpart button {
+      background-color: red;
+      color: white;
+      border-collapse: collapse;
+      border: 1px solid red;
+      border-radius: 5px;
+      padding: 7px 12px;
+    }
+  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@720&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>CSS Task 6</title>
+  </head>
+  <body>
+    <h3>Back to <a href="./index.html">Home</a></h3>
+    <div id="full">
+      <div id="image">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/146/146007.png"
+          alt="boy"
+        />
+      </div>
+      <div id="form">
+        <form action="">
+          <label for="">Username</label>
+          <br />
+          <input type="text" placeholder="Enter Username" class="boxx" />
+          <br />
+          <label for="">Password</label>
+          <br />
+          <input
+            type="password"
+            placeholder="Enter Password"
+            class="boxx"
+          /><br />
+          <button type="submit" id="login">Login</button><br />
+          <input type="checkbox" /> <span class="remember">Remember me</span>
+        </form>
+        <div id="cancelpart">
+          <button>Cancel</button>
+          <div>Forgot <a href="#" style="color: black">password?</a></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
